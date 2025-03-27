@@ -1,9 +1,9 @@
-let buttton = document.querySelector('.plus_btn');
-let button_reset = document.querySelector('.reset_btn');
-let counterText = document.querySelector('.counter');
+let buttton_add = document.getElementById("addDay");
+let button_reset = document.getElementById("resetDay");
+let counterText = document.querySelector('[data-Find ="counterValue"]');
 let counter = 0;
 
-buttton.addEventListener('click', function(){
+buttton_add.addEventListener('click', function(){
     counter = counter + 1;
 
     counterText.innerText = counter;

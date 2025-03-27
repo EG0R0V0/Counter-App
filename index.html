@@ -16,17 +16,14 @@
   </head>
   <body>
     <div class="container">
-      <div class="info">
-        <h1>You've been drinking water</h1>
-        <div class="count-cont">
-          <h2>for</h2>
-          <h2 class="counter">0</h2>
-          <h2>days in a row.</h2>
-        </div>
-
-        <button class="plus_btn"><p>+1 day</p></button> <br />
-        <button class="reset_btn"><p>reset :(</p></button>
+      <h1>You've been drinking water</h1>
+      <div class="count-cont">
+        <h2>for</h2>
+        <h2 data-Find="counterValue" class="counter__value">0</h2>
+        <h2>days in a row.</h2>
       </div>
+      <button id="addDay" class="plus_btn"><p>+1 day</p></button>
+      <button id="resetDay" class="reset_btn"><p>reset :(</p></button>
     </div>
 
     <script src="main.js"></script>
