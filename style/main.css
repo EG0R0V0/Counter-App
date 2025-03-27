@@ -1,0 +1,28 @@
+body, button{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.info{
+    padding-top: 100px;
+    text-align: center;
+}
+h1{
+    margin-bottom: 30px;
+}
+h2{
+    margin-bottom: 30px;
+}
+button{
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4191FF;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
