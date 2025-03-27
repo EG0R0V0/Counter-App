@@ -32,3 +32,9 @@ button{
 button:hover{
     cursor: pointer;
 }
+.plus_btn{
+    margin-bottom: 35px;
+}
+.reset_btn{
+    background-color:  #D45366;
+}
