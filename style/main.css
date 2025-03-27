@@ -9,6 +9,12 @@ body, button{
     padding-top: 100px;
     text-align: center;
 }
+.count-cont{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 h1{
     margin-bottom: 30px;
 }
