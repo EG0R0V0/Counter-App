@@ -10,7 +10,8 @@ buttton.addEventListener('click', function(){
 })
 
 button_reset.addEventListener('click', function(){
-    counterText.innerText = 0;
+    counter = 0;
+    counterText.innerText = counter;
 })
 
 //DOM - Document Object Model
